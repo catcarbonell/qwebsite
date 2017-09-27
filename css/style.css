@@ -1,0 +1,49 @@
+/* GLOBAL SETTINGS */
+body {
+  background: #000;
+  color: #666;
+  font-family: 'Open Sans', arial, sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+  margin-top: 5%;
+}
+
+
+/* VERTICAL CENTER SETTINGS */
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+
+/* NAVIGATION */
+
+#navigation a:link, a:visited {
+  font-size: 1.7em;
+  font family: 'Anton', Helvetica, sans-serif;
+  font-weight: 700;
+  transition: all 0.5s ease-in;
+}
+
+#navigation a:hover {
+  color: #850101;
+  text-decoration: none;
+  transition: all 0.5s ease-out;
+  background: none;
+}
+
+/* HEADSHOT */
+
+
+.h-hover{
+  color: #666;
+  transition: all 0.5s ease-out;
+}
+.h-hover:hover {
+    color: #850101;
+    transition: all 0.5s ease-in;
+}
